@@ -1,6 +1,9 @@
 {
-  "couchdb": {
-    "database_dir": "database",
-    "uuid": "ab2f855d-7d35-4cf8-b00c-52735d178a80"
-  }
+	"couchdb": {
+		"database_dir": "database",
+		"uuid": "ab2f855d-7d35-4cf8-b00c-52735d178a80"
+	},
+	"httpd": {
+		"bind_address": "0.0.0.0"
+	}
 }
