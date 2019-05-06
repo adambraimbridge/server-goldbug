@@ -6,7 +6,7 @@
 	"author": "Adam Braimbridge <adam@braimbridge.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "pouchdb-server --config config.json --port ${PORT}"
+		"start": "pouchdb-server --config config.json --host '0.0.0.0' --port ${PORT}"
 	},
 	"dependencies": {
 		"pouchdb-server": "^4.1.0"
